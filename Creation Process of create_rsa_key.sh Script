@@ -1,5 +1,6 @@
-# Summary:
-By following these steps, you can create, edit, make executable, and run the create_rsa_key.sh script directly within Git Bash on your local machine.
+#Description:
+The `create_rsa_key.sh script` is designed to simulate the creation of an RSA private key in a Unix/Linux environment. It showcases basic shell scripting techniques and can be adapted for specific use cases requiring RSA 
+key generation.
 
 
 1. Open Git Bash:
@@ -57,6 +58,9 @@ This output demonstrates the successful execution of the script and the expected
 
 Output Attachment:
 The output from create_rsa_key.sh has been included in the README.md file for reference.
+
+# Summary:
+By following these steps, you can create, edit, make executable, and run the create_rsa_key.sh script directly within Git Bash on your local machine.
 
 
 
