@@ -1,0 +1,54 @@
+Step-by-Step Guide for create_cert_request.sh:
+
+Script Introduction:
+
+The create_cert_request.sh script is designed to simulate the creation of a certificate request in a Unix/Linux environment. It demonstrates fundamental shell scripting techniques and is versatile for generating 
+certificate requests (*.csr files) to meet various security and authentication needs.The script provides a straightforward approach to generating certificate requests (*.csr files) and serves as a foundation for 
+handling SSL/TLS certificate management tasks.
+
+
+1. Open Git Bash: Launch Git Bash on your computer.
+
+2. Navigate to the Directory (Optional):
+If we don't have a specific directory yet, we can create one to organize our `scripts`. For example, to create a new directory named scripts, we would use:
+
+mkdir scripts
+
+Then, navigate into this directory using:
+
+cd scripts
+
+3. Create the Script File: Use `nano` or another text editor in Git Bash to create and edit the `create_cert_request.sh` script file:
+
+nano create_cert_request.sh
+
+4. Enter Script Content: Paste the script content for `create_cert_request.sh`:
+
+#!/bin/bash
+echo "Creating certificate request..."
+sleep 1
+echo "Certificate request created and saved to cert_request.csr"
+
+5. Save and Exit: Save the file in `nano` by pressing `Ctrl + O`, then exit with `Ctrl + X`.
+
+6. Make Script Executable: Change the script file's permissions to make it executable:
+
+chmod +x create_cert_request.sh
+
+7. Run the Script: Execute the script to simulate creating a certificate request:
+
+./create_cert_request.sh
+
+Sample Output:
+I have included the output of running create_cert_request.sh below. This script simulates the creation of a certificate request and saves it to cert_request.csr.
+
+Creating certificate request...
+Certificate request created and saved to cert_request.csr
+
+This output demonstrates the successful execution of the script and the expected result.
+
+Output Attachment:
+The output from create_cert_request.sh has been included in the README.md file for reference.
+
+Script Summary:
+These steps will help us create and test the create_cert_request.sh script file. Just like with the create_rsa_key.sh script, this script simulates the creation of a certificate request and provides feedback on the process.
