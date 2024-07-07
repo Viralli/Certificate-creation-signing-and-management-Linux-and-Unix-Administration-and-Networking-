@@ -1,4 +1,6 @@
-#Description:
+Step-by-Step Guide for create_rsa_key.sh:
+
+Description:
 The `create_rsa_key.sh script` is designed to simulate the creation of an RSA private key in a Unix/Linux environment. It showcases basic shell scripting techniques and can be adapted for specific use cases requiring RSA 
 key generation.
 
