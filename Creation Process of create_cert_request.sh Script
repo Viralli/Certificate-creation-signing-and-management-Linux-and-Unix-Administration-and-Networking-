@@ -6,6 +6,7 @@ The create_cert_request.sh script is designed to simulate the creation of a cert
 certificate requests (*.csr files) to meet various security and authentication needs.The script provides a straightforward approach to generating certificate requests (*.csr files) and serves as a foundation for 
 handling SSL/TLS certificate management tasks.
 
+Steps to Create and Execute `create_cert_request.sh`
 
 1. Open Git Bash: Launch Git Bash on your computer.
 
