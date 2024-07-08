@@ -8,6 +8,8 @@ Explanation of `create_rsa_key.sh` Script
     sleep 1
     echo "RSA private key created and saved to rsa_private.key"
 
+    Code Explanation:
+
     #!/bin/bash
     `#!/bin/bash`: This command tells the computer to use the Bash shell to run the script.
 
