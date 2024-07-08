@@ -7,6 +7,8 @@ Explanation of `create_certificate_authority.sh` Script
     sleep 1
     echo "Certificate Authority created and saved to ca_cert.crt"
 
+    Code Explanation:
+
     1. Shebang (#!/bin/bash):
 
     The `#!/bin/bash` line at the beginning of the script is called a shebang. It specifies that the script should be interpreted and executed using the Bash shell (`/bin/bash`).
