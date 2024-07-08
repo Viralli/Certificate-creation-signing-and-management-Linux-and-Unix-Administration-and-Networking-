@@ -7,15 +7,11 @@ echo "Simulating creation of certificate..."
 sleep 1
 echo "Certificate created and saved to server_cert.crt"
 
-1. Script Execution:
+Code Explanation:
 
-To execute the create_certificate.sh script, we use the following command in our terminal:
+1. `#!/bin/bash`
 
-./create_certificate.sh
-
-`$`: Represents the command prompt in the terminal.
-`./`: Specifies the current directory, instructing the shell to look for the script in the current location.
-`create_certificate.sh`: The name of the script file being executed.
+This line, known as a shebang, specifies that the script should be interpreted and executed using the Bash shell.
 
 2. Initial Message:
 
@@ -34,4 +30,3 @@ The `sleep` command pauses the script's execution for 1 second. This simulates a
 echo "Certificate created and saved to server_cert.crt"
 
 This is another echo command that confirms the successful creation of the certificate. It notifies the user that the certificate has been generated and saved to a file named `server_cert.crt`.
-
