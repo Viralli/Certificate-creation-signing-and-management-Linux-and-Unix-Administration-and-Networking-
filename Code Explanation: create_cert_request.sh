@@ -8,6 +8,8 @@ Explanation of `create_cert_request.sh` Script
     sleep 1
     echo "Certificate request created and saved to cert_request.csr"
 
+    Code Explanation:
+
     #!/bin/bash
     `#!/bin/bash`: This command tells the computer to use the Bash shell to run the script.
 
