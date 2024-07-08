@@ -3,6 +3,12 @@ Explanation of `create_rsa_key.sh` Script
     The `create_rsa_key.sh` script shown below demonstrates the process of generating an RSA private key in a Unix/Linux environment:
 
     #!/bin/bash
+
+    echo "Simulating RSA private key creation..."
+    sleep 1
+    echo "RSA private key created and saved to rsa_private.key"
+
+    #!/bin/bash
     `#!/bin/bash`: This command tells the computer to use the Bash shell to run the script.
 
     echo "Simulating RSA private key creation..."
