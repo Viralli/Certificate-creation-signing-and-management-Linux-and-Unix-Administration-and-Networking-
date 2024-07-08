@@ -3,6 +3,12 @@ Explanation of `create_cert_request.sh` Script
     The `create_cert_request.sh` script shown below demonstrates the process of creating a certificate request in a Unix/Linux environment:
 
     #!/bin/bash
+
+    echo "Creating certificate request..."
+    sleep 1
+    echo "Certificate request created and saved to cert_request.csr"
+
+    #!/bin/bash
     `#!/bin/bash`: This command tells the computer to use the Bash shell to run the script.
 
      echo "Creating certificate request..."
