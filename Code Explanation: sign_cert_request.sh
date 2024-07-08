@@ -7,6 +7,8 @@ Explanation of `sign_cert_request.sh` Script
     sleep 1
     echo "CSR signed and saved to signed_cert.crt"
 
+    Code Explanation:
+
     `#!/bin/bash`: This line, known as a shebang, specifies that the script should be interpreted and executed using the Bash shell.
 
     `echo "Simulating signing of CSR..."`: The `echo` command prints the text "Simulating signing of CSR..." to the terminal. This line indicates that the script is starting the process of simulating the signing of a 
