@@ -10,7 +10,7 @@ Output Explanation for `sign_cert_request.sh` Script
 
     1. **Running the `sign_cert_request.sh` Script:
 
-    To execute the `sign_cert_request.sh` script, use the following command in your terminal:
+    To execute the `sign_cert_request.sh` script, use the following command in the terminal:
 
     $ ./sign_cert_request.sh
 
