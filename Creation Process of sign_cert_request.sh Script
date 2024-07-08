@@ -1,0 +1,59 @@
+Step-by-Step Guide for `sign_cert_request.sh`
+
+Script Introduction
+
+The `sign_cert_request.sh` script is designed to simulate the signing of a certificate request in a Unix/Linux environment. It showcases basic shell scripting techniques and is useful for simulating the process of signing 
+certificate requests (*.csr files). This script provides a straightforward approach to signing certificate requests and serves as a foundation for handling SSL/TLS certificate management tasks.
+
+Steps to Create and Execute `sign_cert_request.sh`
+
+1. Open Git Bash: Launch Git Bash on your computer.
+
+2. Navigate to the Directory (Optional):
+
+If you don't have a specific directory yet, you can create one to organize your scripts. For example, to create a new directory named `scripts`, use:
+
+mkdir scripts
+
+Then, navigate into this directory using:
+
+cd scripts
+
+3. Create the Script File: Use `nano` or another text editor in Git Bash to create and edit the `sign_cert_request.sh` script file:
+
+nano sign_cert_request.sh
+
+4. Enter Script Content: Paste the script content for `sign_cert_request.sh`:
+
+#!/bin/bash
+echo "Simulating signing of CSR..."
+sleep 1
+echo "CSR signed and saved to signed_cert.crt"
+
+5. Save and Exit: Save the file in `nano` by pressing `Ctrl + O`, then exit with `Ctrl + X`.
+
+6. Make Script Executable: Change the script file's permissions to make it executable:
+
+chmod +x sign_cert_request.sh
+
+7. Run the Script: Execute the script to simulate signing a certificate request:
+
+./sign_cert_request.sh
+
+Sample Output
+
+I have included the output of running `sign_cert_request.sh` below. This script simulates the signing of a certificate request and saves it to `signed_cert.crt`.
+
+Simulating signing of CSR...
+CSR signed and saved to signed_cert.crt
+
+This output demonstrates the successful execution of the script and the expected result.
+
+Output Attachment
+
+The output from `sign_cert_request.sh` has been included in the README.md file for reference.
+
+Script Summary
+
+These steps will help us create and test the `sign_cert_request.sh` script file. Just like with the `create_rsa_key.sh` and `create_cert_request.sh` scripts, this script simulates the signing of a certificate request and
+provides feedback on the process.
