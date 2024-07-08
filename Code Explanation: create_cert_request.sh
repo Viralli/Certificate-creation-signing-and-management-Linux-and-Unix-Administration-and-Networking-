@@ -1,4 +1,4 @@
-Explanation of create_cert_request.sh Script
+Explanation of `create_cert_request.sh` Script
 
     The `create_cert_request.sh` script shown below demonstrates the process of creating a certificate request in a Unix/Linux environment:
 
