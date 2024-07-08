@@ -1,0 +1,58 @@
+Step-by-Step Guide for setup_apache_ssl.sh
+
+Script Introduction:
+
+The `setup_apache_ssl.sh` script is designed to simulate the setup of SSL for Apache in a Unix/Linux environment. It demonstrates fundamental shell scripting techniques and provides a straightforward approach to setting up SSL, serving as a foundation for handling 
+SSL/TLS configuration tasks for web servers.
+
+Steps to Create and Execute `setup_apache_ssl.sh`
+
+1. Open Git Bash: Launch Git Bash on your computer.
+
+2. Navigate to the Directory (Optional):
+
+If you don't have a specific directory yet, we can create one to organize our scripts. For example, to create a new directory named `scripts`, use:
+
+mkdir scripts
+
+Then, navigate into this directory using:
+
+cd scripts
+
+3. Create the Script File: Use `nano` or another text editor in Git Bash to create and edit the `setup_apache_ssl.sh` script file:
+
+nano setup_apache_ssl.sh
+
+4. Enter Script Content: Paste the script content for `setup_apache_ssl.sh`:
+
+#!/bin/bash
+echo "Simulating Apache SSL setup..."
+sleep 1
+echo "Apache SSL setup completed"
+
+5. Save and Exit: Save the file in `nano` by pressing `Ctrl + O`, then exit with `Ctrl + X`.
+
+6. Make Script Executable: Change the script file's permissions to make it executable:
+
+chmod +x setup_apache_ssl.sh
+
+7. Run the Script: Execute the script to simulate setting up SSL for Apache:
+
+./setup_apache_ssl.sh
+
+Sample Output:
+
+Running the setup_apache_ssl.sh script produces the following output:
+
+Simulating Apache SSL setup...
+Apache SSL setup completed
+
+This output demonstrates the successful execution of the script and the expected result.
+
+Output Attachment:
+
+The output from setup_apache_ssl.sh has been included in the README.md file for reference.
+
+Script Summary:
+
+These steps will help us create and test the setup_apache_ssl.sh script file. Just like with the create_cert_request.sh script, this script simulates the setup of SSL for Apache and provides feedback on the process.
